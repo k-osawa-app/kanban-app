@@ -3,11 +3,9 @@
 
 {
   "extends": "./tsconfig.json",
-  "compilerOptions": {
-    "outDir": "./out-tsc/spec",
+  "compilerOptions": { 
     "types": [
-      "vitest/globals",
-      "jasmine"
+      "vitest/globals",      
     ]
   },
   "include": [
