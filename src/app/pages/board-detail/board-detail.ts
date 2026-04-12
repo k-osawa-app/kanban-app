@@ -8,4 +8,3 @@ import { Component } from '@angular/core';
   styleUrl: './board-detail.scss'  
 })
 export class BoardDetail {}
-

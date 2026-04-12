@@ -8,11 +8,10 @@ export class AuthService {
   user$ = this.userSubject.asObservable();
 
   login() {
-    this.userSubject.next(true); // ログイン状態にする
+    this.userSubject.next(true); 
   }
 
   logout() {
-    this.userSubject.next(false); // ログアウト状態にする
+    this.userSubject.next(false); 
   }
 }
-
