@@ -20,7 +20,7 @@ export class Signup {
   errorMessage: string | null = null;
  
   signupForm = this.fb.nonNullable.group({
-    name: ['', [Validators.required]], // 名前は必須
+    name: ['', [Validators.required]], 
     email: ['', [Validators.required, Validators.email]], 
     password: ['', [Validators.required, Validators.minLength(6)]] 
   });

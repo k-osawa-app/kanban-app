@@ -1,12 +1,11 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Router, RouterLink, RouterOutlet } from '@angular/router';
+import { Router, RouterLink } from '@angular/router';
 import { AuthService } from '../services/authservice';
 
 @Component({
   selector: 'app-header',
-  //standalone: true,
-  imports: [CommonModule, RouterLink], //RouterOutlet ,RouterLink, AsyncPipeを使うためにCommonModuleが必要
+  imports: [CommonModule, RouterLink], 
   templateUrl: `./header.html`,
   styleUrl: `./header.scss`
 })

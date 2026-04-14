@@ -29,7 +29,7 @@ export class Login {
       this.authService.login({ email: email!, password: password! }).subscribe({
         next: () => {
           // ログイン成功したらダッシュボードへ
-          this.router.navigate(['/dashboard']);//'/board'
+          this.router.navigate(['/dashboard']);
         },
         error: (err) => {
           // エラーハンドリング（例: パスワード間違い）
